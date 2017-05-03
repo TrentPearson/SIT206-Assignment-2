@@ -14,6 +14,7 @@
 		368537CA1EB85DFD005CCCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368537C81EB85DFD005CCCF0 /* LaunchScreen.storyboard */; };
 		368537D51EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537D41EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift */; };
 		368537E01EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537DF1EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift */; };
+		36C4E0911EB9B47F00D996E5 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4E0901EB9B47F00D996E5 /* SongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		368537DB1EB85DFD005CCCF0 /* Beats Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		368537DF1EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		368537E11EB85DFD005CCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C4E0901EB9B47F00D996E5 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				368537BF1EB85DFD005CCCF0 /* AppDelegate.swift */,
 				368537C11EB85DFD005CCCF0 /* HomeViewController.swift */,
 				368537C31EB85DFD005CCCF0 /* Main.storyboard */,
+				36C4E0901EB9B47F00D996E5 /* SongViewController.swift */,
 				368537C61EB85DFD005CCCF0 /* Assets.xcassets */,
 				368537C81EB85DFD005CCCF0 /* LaunchScreen.storyboard */,
 				368537CB1EB85DFD005CCCF0 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C4E0911EB9B47F00D996E5 /* SongViewController.swift in Sources */,
 				368537C21EB85DFD005CCCF0 /* HomeViewController.swift in Sources */,
 				368537C01EB85DFD005CCCF0 /* AppDelegate.swift in Sources */,
 			);
