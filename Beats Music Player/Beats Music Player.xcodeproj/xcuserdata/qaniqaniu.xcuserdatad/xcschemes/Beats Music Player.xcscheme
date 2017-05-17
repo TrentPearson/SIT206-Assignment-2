@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "368537BB1EB85DFD005CCCF0"
+               BlueprintIdentifier = "36FA6C441EC532570007B8BA"
                BuildableName = "Beats Music Player.app"
                BlueprintName = "Beats Music Player"
                ReferencedContainer = "container:Beats Music Player.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "368537CF1EB85DFD005CCCF0"
+               BlueprintIdentifier = "36FA6C581EC532570007B8BA"
                BuildableName = "Beats Music PlayerTests.xctest"
                BlueprintName = "Beats Music PlayerTests"
                ReferencedContainer = "container:Beats Music Player.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "368537DA1EB85DFD005CCCF0"
+               BlueprintIdentifier = "36FA6C631EC532580007B8BA"
                BuildableName = "Beats Music PlayerUITests.xctest"
                BlueprintName = "Beats Music PlayerUITests"
                ReferencedContainer = "container:Beats Music Player.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "368537BB1EB85DFD005CCCF0"
+            BlueprintIdentifier = "36FA6C441EC532570007B8BA"
             BuildableName = "Beats Music Player.app"
             BlueprintName = "Beats Music Player"
             ReferencedContainer = "container:Beats Music Player.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "368537BB1EB85DFD005CCCF0"
+            BlueprintIdentifier = "36FA6C441EC532570007B8BA"
             BuildableName = "Beats Music Player.app"
             BlueprintName = "Beats Music Player"
             ReferencedContainer = "container:Beats Music Player.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "368537BB1EB85DFD005CCCF0"
+            BlueprintIdentifier = "36FA6C441EC532570007B8BA"
             BuildableName = "Beats Music Player.app"
             BlueprintName = "Beats Music Player"
             ReferencedContainer = "container:Beats Music Player.xcodeproj">

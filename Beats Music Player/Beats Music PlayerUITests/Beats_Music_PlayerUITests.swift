@@ -2,7 +2,7 @@
 //  Beats_Music_PlayerUITests.swift
 //  Beats Music PlayerUITests
 //
-//  Created by Qani Qaniu on 2/5/17.
+//  Created by Qani Qaniu on 12/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 

@@ -1,22 +1,21 @@
 //
-//  SongViewController.swift
+//  ChooseGameViewController.swift
 //  Beats Music Player
 //
-//  Created by Qani Qaniu on 3/5/17.
+//  Created by Qani Qaniu on 17/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 
 import UIKit
 
-class SongViewController: UIViewController {
-
-    @IBAction func backToHome(_ sender: UIButton)
-    {
+class ChooseGameViewController: UIViewController {
+    
+    @IBAction func ticTacToe(_ sender: UIButton) {
         
+        gameMode = 2
     }
     
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

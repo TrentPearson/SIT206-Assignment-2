@@ -7,66 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		368537C01EB85DFD005CCCF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537BF1EB85DFD005CCCF0 /* AppDelegate.swift */; };
-		368537C21EB85DFD005CCCF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537C11EB85DFD005CCCF0 /* HomeViewController.swift */; };
-		368537C51EB85DFD005CCCF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368537C31EB85DFD005CCCF0 /* Main.storyboard */; };
-		368537C71EB85DFD005CCCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368537C61EB85DFD005CCCF0 /* Assets.xcassets */; };
-		368537CA1EB85DFD005CCCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368537C81EB85DFD005CCCF0 /* LaunchScreen.storyboard */; };
-		368537D51EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537D41EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift */; };
-		368537E01EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368537DF1EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift */; };
-		36C4E0911EB9B47F00D996E5 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4E0901EB9B47F00D996E5 /* SongViewController.swift */; };
+		3629855E1ECBDE7200D6631E /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629855D1ECBDE7200D6631E /* PopTheBalloonViewController.swift */; };
+		36591EAD1ECBE2E900D48B90 /* OnePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36591EAC1ECBE2E900D48B90 /* OnePlayerViewController.swift */; };
+		36591EAF1ECBE3E300D48B90 /* ChooseGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36591EAE1ECBE3E300D48B90 /* ChooseGameViewController.swift */; };
+		36FA6C491EC532570007B8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C481EC532570007B8BA /* AppDelegate.swift */; };
+		36FA6C4E1EC532570007B8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C4C1EC532570007B8BA /* Main.storyboard */; };
+		36FA6C501EC532570007B8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C4F1EC532570007B8BA /* Assets.xcassets */; };
+		36FA6C531EC532570007B8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C511EC532570007B8BA /* LaunchScreen.storyboard */; };
+		36FA6C5E1EC532570007B8BA /* Beats_Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C5D1EC532570007B8BA /* Beats_Music_PlayerTests.swift */; };
+		36FA6C691EC532580007B8BA /* Beats_Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C681EC532580007B8BA /* Beats_Music_PlayerUITests.swift */; };
+		36FA6C771EC532B40007B8BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C761EC532B40007B8BA /* FirstViewController.swift */; };
+		36FA6C791EC532BB0007B8BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C781EC532BB0007B8BA /* SecondViewController.swift */; };
+		36FA6C7B1EC532C10007B8BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6C7A1EC532C10007B8BA /* HomeViewController.swift */; };
+		36FA6C841EC532F10007B8BA /* A Girl in Oakland.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C7D1EC532F10007B8BA /* A Girl in Oakland.mp3 */; };
+		36FA6C851EC532F10007B8BA /* Find My Way Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C7E1EC532F10007B8BA /* Find My Way Home.mp3 */; };
+		36FA6C861EC532F10007B8BA /* Fingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C7F1EC532F10007B8BA /* Fingers.mp3 */; };
+		36FA6C871EC532F10007B8BA /* In Case You Forgot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C801EC532F10007B8BA /* In Case You Forgot.mp3 */; };
+		36FA6C881EC532F10007B8BA /* Mighty Fine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C811EC532F10007B8BA /* Mighty Fine.mp3 */; };
+		36FA6C891EC532F10007B8BA /* Otis McMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C821EC532F10007B8BA /* Otis McMusic.mp3 */; };
+		36FA6C8A1EC532F10007B8BA /* Scarlet Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C831EC532F10007B8BA /* Scarlet Fire.mp3 */; };
+		36FA6C8C1EC533020007B8BA /* Skjermbilde 2017-01-30 kl. 16.14.11.png in Resources */ = {isa = PBXBuildFile; fileRef = 36FA6C8B1EC533020007B8BA /* Skjermbilde 2017-01-30 kl. 16.14.11.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		368537D11EB85DFD005CCCF0 /* PBXContainerItemProxy */ = {
+		36FA6C5A1EC532570007B8BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 368537B41EB85DFD005CCCF0 /* Project object */;
+			containerPortal = 36FA6C3D1EC532570007B8BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 368537BB1EB85DFD005CCCF0;
+			remoteGlobalIDString = 36FA6C441EC532570007B8BA;
 			remoteInfo = "Beats Music Player";
 		};
-		368537DC1EB85DFD005CCCF0 /* PBXContainerItemProxy */ = {
+		36FA6C651EC532580007B8BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 368537B41EB85DFD005CCCF0 /* Project object */;
+			containerPortal = 36FA6C3D1EC532570007B8BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 368537BB1EB85DFD005CCCF0;
+			remoteGlobalIDString = 36FA6C441EC532570007B8BA;
 			remoteInfo = "Beats Music Player";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		368537BC1EB85DFD005CCCF0 /* Beats Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beats Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		368537BF1EB85DFD005CCCF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		368537C11EB85DFD005CCCF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		368537C41EB85DFD005CCCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		368537C61EB85DFD005CCCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		368537C91EB85DFD005CCCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		368537CB1EB85DFD005CCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		368537D01EB85DFD005CCCF0 /* Beats Music PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats Music PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		368537D41EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Music_PlayerTests.swift; sourceTree = "<group>"; };
-		368537D61EB85DFD005CCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		368537DB1EB85DFD005CCCF0 /* Beats Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		368537DF1EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Music_PlayerUITests.swift; sourceTree = "<group>"; };
-		368537E11EB85DFD005CCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36C4E0901EB9B47F00D996E5 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		3629855D1ECBDE7200D6631E /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopTheBalloonViewController.swift; path = "../../../../Prac9/Prac 9/Prac 9/PopTheBalloonViewController.swift"; sourceTree = "<group>"; };
+		36591EAC1ECBE2E900D48B90 /* OnePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnePlayerViewController.swift; path = "../../../../Assignment 1 - SIT206/TicTacToe/TicTacToe/OnePlayerViewController.swift"; sourceTree = "<group>"; };
+		36591EAE1ECBE3E300D48B90 /* ChooseGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseGameViewController.swift; sourceTree = "<group>"; };
+		36FA6C451EC532570007B8BA /* Beats Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beats Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA6C481EC532570007B8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36FA6C4D1EC532570007B8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FA6C4F1EC532570007B8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FA6C521EC532570007B8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36FA6C541EC532570007B8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FA6C591EC532570007B8BA /* Beats Music PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats Music PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA6C5D1EC532570007B8BA /* Beats_Music_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Music_PlayerTests.swift; sourceTree = "<group>"; };
+		36FA6C5F1EC532570007B8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FA6C641EC532580007B8BA /* Beats Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA6C681EC532580007B8BA /* Beats_Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Music_PlayerUITests.swift; sourceTree = "<group>"; };
+		36FA6C6A1EC532580007B8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FA6C761EC532B40007B8BA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "../../../../Music Player/MusicPlay/FirstViewController.swift"; sourceTree = "<group>"; };
+		36FA6C781EC532BB0007B8BA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../../Music Player/MusicPlay/SecondViewController.swift"; sourceTree = "<group>"; };
+		36FA6C7A1EC532C10007B8BA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../Music Player/MusicPlay/HomeViewController.swift"; sourceTree = "<group>"; };
+		36FA6C7D1EC532F10007B8BA /* A Girl in Oakland.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A Girl in Oakland.mp3"; path = "../../../../Music Player/MusicPlay/Song/A Girl in Oakland.mp3"; sourceTree = "<group>"; };
+		36FA6C7E1EC532F10007B8BA /* Find My Way Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Find My Way Home.mp3"; path = "../../../../Music Player/MusicPlay/Song/Find My Way Home.mp3"; sourceTree = "<group>"; };
+		36FA6C7F1EC532F10007B8BA /* Fingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fingers.mp3; path = "../../../../Music Player/MusicPlay/Song/Fingers.mp3"; sourceTree = "<group>"; };
+		36FA6C801EC532F10007B8BA /* In Case You Forgot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "In Case You Forgot.mp3"; path = "../../../../Music Player/MusicPlay/Song/In Case You Forgot.mp3"; sourceTree = "<group>"; };
+		36FA6C811EC532F10007B8BA /* Mighty Fine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mighty Fine.mp3"; path = "../../../../Music Player/MusicPlay/Song/Mighty Fine.mp3"; sourceTree = "<group>"; };
+		36FA6C821EC532F10007B8BA /* Otis McMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Otis McMusic.mp3"; path = "../../../../Music Player/MusicPlay/Song/Otis McMusic.mp3"; sourceTree = "<group>"; };
+		36FA6C831EC532F10007B8BA /* Scarlet Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Scarlet Fire.mp3"; path = "../../../../Music Player/MusicPlay/Song/Scarlet Fire.mp3"; sourceTree = "<group>"; };
+		36FA6C8B1EC533020007B8BA /* Skjermbilde 2017-01-30 kl. 16.14.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Skjermbilde 2017-01-30 kl. 16.14.11.png"; path = "../../../../Music Player/MusicPlay/Skjermbilde 2017-01-30 kl. 16.14.11.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		368537B91EB85DFD005CCCF0 /* Frameworks */ = {
+		36FA6C421EC532570007B8BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537CD1EB85DFD005CCCF0 /* Frameworks */ = {
+		36FA6C561EC532570007B8BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537D81EB85DFD005CCCF0 /* Frameworks */ = {
+		36FA6C611EC532580007B8BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +100,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		368537B31EB85DFD005CCCF0 = {
+		36FA6C3C1EC532570007B8BA = {
 			isa = PBXGroup;
 			children = (
-				368537BE1EB85DFD005CCCF0 /* Beats Music Player */,
-				368537D31EB85DFD005CCCF0 /* Beats Music PlayerTests */,
-				368537DE1EB85DFD005CCCF0 /* Beats Music PlayerUITests */,
-				368537BD1EB85DFD005CCCF0 /* Products */,
+				36FA6C471EC532570007B8BA /* Beats Music Player */,
+				36FA6C5C1EC532570007B8BA /* Beats Music PlayerTests */,
+				36FA6C671EC532580007B8BA /* Beats Music PlayerUITests */,
+				36FA6C461EC532570007B8BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		368537BD1EB85DFD005CCCF0 /* Products */ = {
+		36FA6C461EC532570007B8BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				368537BC1EB85DFD005CCCF0 /* Beats Music Player.app */,
-				368537D01EB85DFD005CCCF0 /* Beats Music PlayerTests.xctest */,
-				368537DB1EB85DFD005CCCF0 /* Beats Music PlayerUITests.xctest */,
+				36FA6C451EC532570007B8BA /* Beats Music Player.app */,
+				36FA6C591EC532570007B8BA /* Beats Music PlayerTests.xctest */,
+				36FA6C641EC532580007B8BA /* Beats Music PlayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		368537BE1EB85DFD005CCCF0 /* Beats Music Player */ = {
+		36FA6C471EC532570007B8BA /* Beats Music Player */ = {
 			isa = PBXGroup;
 			children = (
-				368537BF1EB85DFD005CCCF0 /* AppDelegate.swift */,
-				368537C11EB85DFD005CCCF0 /* HomeViewController.swift */,
-				368537C31EB85DFD005CCCF0 /* Main.storyboard */,
-				36C4E0901EB9B47F00D996E5 /* SongViewController.swift */,
-				368537C61EB85DFD005CCCF0 /* Assets.xcassets */,
-				368537C81EB85DFD005CCCF0 /* LaunchScreen.storyboard */,
-				368537CB1EB85DFD005CCCF0 /* Info.plist */,
+				36FA6C481EC532570007B8BA /* AppDelegate.swift */,
+				36FA6C761EC532B40007B8BA /* FirstViewController.swift */,
+				36FA6C781EC532BB0007B8BA /* SecondViewController.swift */,
+				36FA6C7A1EC532C10007B8BA /* HomeViewController.swift */,
+				3629855D1ECBDE7200D6631E /* PopTheBalloonViewController.swift */,
+				36591EAC1ECBE2E900D48B90 /* OnePlayerViewController.swift */,
+				36591EAE1ECBE3E300D48B90 /* ChooseGameViewController.swift */,
+				36FA6C4C1EC532570007B8BA /* Main.storyboard */,
+				36FA6C4F1EC532570007B8BA /* Assets.xcassets */,
+				36FA6C511EC532570007B8BA /* LaunchScreen.storyboard */,
+				36FA6C541EC532570007B8BA /* Info.plist */,
+				36FA6C8B1EC533020007B8BA /* Skjermbilde 2017-01-30 kl. 16.14.11.png */,
+				36FA6C7C1EC532D60007B8BA /* Songs */,
 			);
 			path = "Beats Music Player";
 			sourceTree = "<group>";
 		};
-		368537D31EB85DFD005CCCF0 /* Beats Music PlayerTests */ = {
+		36FA6C5C1EC532570007B8BA /* Beats Music PlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				368537D41EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift */,
-				368537D61EB85DFD005CCCF0 /* Info.plist */,
+				36FA6C5D1EC532570007B8BA /* Beats_Music_PlayerTests.swift */,
+				36FA6C5F1EC532570007B8BA /* Info.plist */,
 			);
 			path = "Beats Music PlayerTests";
 			sourceTree = "<group>";
 		};
-		368537DE1EB85DFD005CCCF0 /* Beats Music PlayerUITests */ = {
+		36FA6C671EC532580007B8BA /* Beats Music PlayerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				368537DF1EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift */,
-				368537E11EB85DFD005CCCF0 /* Info.plist */,
+				36FA6C681EC532580007B8BA /* Beats_Music_PlayerUITests.swift */,
+				36FA6C6A1EC532580007B8BA /* Info.plist */,
 			);
 			path = "Beats Music PlayerUITests";
+			sourceTree = "<group>";
+		};
+		36FA6C7C1EC532D60007B8BA /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				36FA6C7D1EC532F10007B8BA /* A Girl in Oakland.mp3 */,
+				36FA6C7E1EC532F10007B8BA /* Find My Way Home.mp3 */,
+				36FA6C7F1EC532F10007B8BA /* Fingers.mp3 */,
+				36FA6C801EC532F10007B8BA /* In Case You Forgot.mp3 */,
+				36FA6C811EC532F10007B8BA /* Mighty Fine.mp3 */,
+				36FA6C821EC532F10007B8BA /* Otis McMusic.mp3 */,
+				36FA6C831EC532F10007B8BA /* Scarlet Fire.mp3 */,
+			);
+			name = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		368537BB1EB85DFD005CCCF0 /* Beats Music Player */ = {
+		36FA6C441EC532570007B8BA /* Beats Music Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 368537E41EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music Player" */;
+			buildConfigurationList = 36FA6C6D1EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music Player" */;
 			buildPhases = (
-				368537B81EB85DFD005CCCF0 /* Sources */,
-				368537B91EB85DFD005CCCF0 /* Frameworks */,
-				368537BA1EB85DFD005CCCF0 /* Resources */,
+				36FA6C411EC532570007B8BA /* Sources */,
+				36FA6C421EC532570007B8BA /* Frameworks */,
+				36FA6C431EC532570007B8BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,72 +189,72 @@
 			);
 			name = "Beats Music Player";
 			productName = "Beats Music Player";
-			productReference = 368537BC1EB85DFD005CCCF0 /* Beats Music Player.app */;
+			productReference = 36FA6C451EC532570007B8BA /* Beats Music Player.app */;
 			productType = "com.apple.product-type.application";
 		};
-		368537CF1EB85DFD005CCCF0 /* Beats Music PlayerTests */ = {
+		36FA6C581EC532570007B8BA /* Beats Music PlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 368537E71EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music PlayerTests" */;
+			buildConfigurationList = 36FA6C701EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music PlayerTests" */;
 			buildPhases = (
-				368537CC1EB85DFD005CCCF0 /* Sources */,
-				368537CD1EB85DFD005CCCF0 /* Frameworks */,
-				368537CE1EB85DFD005CCCF0 /* Resources */,
+				36FA6C551EC532570007B8BA /* Sources */,
+				36FA6C561EC532570007B8BA /* Frameworks */,
+				36FA6C571EC532570007B8BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				368537D21EB85DFD005CCCF0 /* PBXTargetDependency */,
+				36FA6C5B1EC532570007B8BA /* PBXTargetDependency */,
 			);
 			name = "Beats Music PlayerTests";
 			productName = "Beats Music PlayerTests";
-			productReference = 368537D01EB85DFD005CCCF0 /* Beats Music PlayerTests.xctest */;
+			productReference = 36FA6C591EC532570007B8BA /* Beats Music PlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		368537DA1EB85DFD005CCCF0 /* Beats Music PlayerUITests */ = {
+		36FA6C631EC532580007B8BA /* Beats Music PlayerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 368537EA1EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music PlayerUITests" */;
+			buildConfigurationList = 36FA6C731EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music PlayerUITests" */;
 			buildPhases = (
-				368537D71EB85DFD005CCCF0 /* Sources */,
-				368537D81EB85DFD005CCCF0 /* Frameworks */,
-				368537D91EB85DFD005CCCF0 /* Resources */,
+				36FA6C601EC532580007B8BA /* Sources */,
+				36FA6C611EC532580007B8BA /* Frameworks */,
+				36FA6C621EC532580007B8BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				368537DD1EB85DFD005CCCF0 /* PBXTargetDependency */,
+				36FA6C661EC532580007B8BA /* PBXTargetDependency */,
 			);
 			name = "Beats Music PlayerUITests";
 			productName = "Beats Music PlayerUITests";
-			productReference = 368537DB1EB85DFD005CCCF0 /* Beats Music PlayerUITests.xctest */;
+			productReference = 36FA6C641EC532580007B8BA /* Beats Music PlayerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		368537B41EB85DFD005CCCF0 /* Project object */ = {
+		36FA6C3D1EC532570007B8BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Qani Qaniu";
 				TargetAttributes = {
-					368537BB1EB85DFD005CCCF0 = {
+					36FA6C441EC532570007B8BA = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					368537CF1EB85DFD005CCCF0 = {
+					36FA6C581EC532570007B8BA = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 368537BB1EB85DFD005CCCF0;
+						TestTargetID = 36FA6C441EC532570007B8BA;
 					};
-					368537DA1EB85DFD005CCCF0 = {
+					36FA6C631EC532580007B8BA = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 368537BB1EB85DFD005CCCF0;
+						TestTargetID = 36FA6C441EC532570007B8BA;
 					};
 				};
 			};
-			buildConfigurationList = 368537B71EB85DFD005CCCF0 /* Build configuration list for PBXProject "Beats Music Player" */;
+			buildConfigurationList = 36FA6C401EC532570007B8BA /* Build configuration list for PBXProject "Beats Music Player" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +262,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 368537B31EB85DFD005CCCF0;
-			productRefGroup = 368537BD1EB85DFD005CCCF0 /* Products */;
+			mainGroup = 36FA6C3C1EC532570007B8BA;
+			productRefGroup = 36FA6C461EC532570007B8BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				368537BB1EB85DFD005CCCF0 /* Beats Music Player */,
-				368537CF1EB85DFD005CCCF0 /* Beats Music PlayerTests */,
-				368537DA1EB85DFD005CCCF0 /* Beats Music PlayerUITests */,
+				36FA6C441EC532570007B8BA /* Beats Music Player */,
+				36FA6C581EC532570007B8BA /* Beats Music PlayerTests */,
+				36FA6C631EC532580007B8BA /* Beats Music PlayerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		368537BA1EB85DFD005CCCF0 /* Resources */ = {
+		36FA6C431EC532570007B8BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368537CA1EB85DFD005CCCF0 /* LaunchScreen.storyboard in Resources */,
-				368537C71EB85DFD005CCCF0 /* Assets.xcassets in Resources */,
-				368537C51EB85DFD005CCCF0 /* Main.storyboard in Resources */,
+				36FA6C8A1EC532F10007B8BA /* Scarlet Fire.mp3 in Resources */,
+				36FA6C531EC532570007B8BA /* LaunchScreen.storyboard in Resources */,
+				36FA6C891EC532F10007B8BA /* Otis McMusic.mp3 in Resources */,
+				36FA6C881EC532F10007B8BA /* Mighty Fine.mp3 in Resources */,
+				36FA6C8C1EC533020007B8BA /* Skjermbilde 2017-01-30 kl. 16.14.11.png in Resources */,
+				36FA6C871EC532F10007B8BA /* In Case You Forgot.mp3 in Resources */,
+				36FA6C851EC532F10007B8BA /* Find My Way Home.mp3 in Resources */,
+				36FA6C501EC532570007B8BA /* Assets.xcassets in Resources */,
+				36FA6C4E1EC532570007B8BA /* Main.storyboard in Resources */,
+				36FA6C841EC532F10007B8BA /* A Girl in Oakland.mp3 in Resources */,
+				36FA6C861EC532F10007B8BA /* Fingers.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537CE1EB85DFD005CCCF0 /* Resources */ = {
+		36FA6C571EC532570007B8BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537D91EB85DFD005CCCF0 /* Resources */ = {
+		36FA6C621EC532580007B8BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +310,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		368537B81EB85DFD005CCCF0 /* Sources */ = {
+		36FA6C411EC532570007B8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C4E0911EB9B47F00D996E5 /* SongViewController.swift in Sources */,
-				368537C21EB85DFD005CCCF0 /* HomeViewController.swift in Sources */,
-				368537C01EB85DFD005CCCF0 /* AppDelegate.swift in Sources */,
+				36591EAF1ECBE3E300D48B90 /* ChooseGameViewController.swift in Sources */,
+				36591EAD1ECBE2E900D48B90 /* OnePlayerViewController.swift in Sources */,
+				3629855E1ECBDE7200D6631E /* PopTheBalloonViewController.swift in Sources */,
+				36FA6C7B1EC532C10007B8BA /* HomeViewController.swift in Sources */,
+				36FA6C791EC532BB0007B8BA /* SecondViewController.swift in Sources */,
+				36FA6C771EC532B40007B8BA /* FirstViewController.swift in Sources */,
+				36FA6C491EC532570007B8BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537CC1EB85DFD005CCCF0 /* Sources */ = {
+		36FA6C551EC532570007B8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368537D51EB85DFD005CCCF0 /* Beats_Music_PlayerTests.swift in Sources */,
+				36FA6C5E1EC532570007B8BA /* Beats_Music_PlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368537D71EB85DFD005CCCF0 /* Sources */ = {
+		36FA6C601EC532580007B8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368537E01EB85DFD005CCCF0 /* Beats_Music_PlayerUITests.swift in Sources */,
+				36FA6C691EC532580007B8BA /* Beats_Music_PlayerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		368537D21EB85DFD005CCCF0 /* PBXTargetDependency */ = {
+		36FA6C5B1EC532570007B8BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 368537BB1EB85DFD005CCCF0 /* Beats Music Player */;
-			targetProxy = 368537D11EB85DFD005CCCF0 /* PBXContainerItemProxy */;
+			target = 36FA6C441EC532570007B8BA /* Beats Music Player */;
+			targetProxy = 36FA6C5A1EC532570007B8BA /* PBXContainerItemProxy */;
 		};
-		368537DD1EB85DFD005CCCF0 /* PBXTargetDependency */ = {
+		36FA6C661EC532580007B8BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 368537BB1EB85DFD005CCCF0 /* Beats Music Player */;
-			targetProxy = 368537DC1EB85DFD005CCCF0 /* PBXContainerItemProxy */;
+			target = 36FA6C441EC532570007B8BA /* Beats Music Player */;
+			targetProxy = 36FA6C651EC532580007B8BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		368537C31EB85DFD005CCCF0 /* Main.storyboard */ = {
+		36FA6C4C1EC532570007B8BA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				368537C41EB85DFD005CCCF0 /* Base */,
+				36FA6C4D1EC532570007B8BA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		368537C81EB85DFD005CCCF0 /* LaunchScreen.storyboard */ = {
+		36FA6C511EC532570007B8BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				368537C91EB85DFD005CCCF0 /* Base */,
+				36FA6C521EC532570007B8BA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +375,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		368537E21EB85DFD005CCCF0 /* Debug */ = {
+		36FA6C6B1EC532580007B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +425,7 @@
 			};
 			name = Debug;
 		};
-		368537E31EB85DFD005CCCF0 /* Release */ = {
+		36FA6C6C1EC532580007B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +468,7 @@
 			};
 			name = Release;
 		};
-		368537E51EB85DFD005CCCF0 /* Debug */ = {
+		36FA6C6E1EC532580007B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -424,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		368537E61EB85DFD005CCCF0 /* Release */ = {
+		36FA6C6F1EC532580007B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -436,7 +492,7 @@
 			};
 			name = Release;
 		};
-		368537E81EB85DFD005CCCF0 /* Debug */ = {
+		36FA6C711EC532580007B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -450,7 +506,7 @@
 			};
 			name = Debug;
 		};
-		368537E91EB85DFD005CCCF0 /* Release */ = {
+		36FA6C721EC532580007B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -464,7 +520,7 @@
 			};
 			name = Release;
 		};
-		368537EB1EB85DFD005CCCF0 /* Debug */ = {
+		36FA6C741EC532580007B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -477,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		368537EC1EB85DFD005CCCF0 /* Release */ = {
+		36FA6C751EC532580007B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,43 +549,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		368537B71EB85DFD005CCCF0 /* Build configuration list for PBXProject "Beats Music Player" */ = {
+		36FA6C401EC532570007B8BA /* Build configuration list for PBXProject "Beats Music Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				368537E21EB85DFD005CCCF0 /* Debug */,
-				368537E31EB85DFD005CCCF0 /* Release */,
+				36FA6C6B1EC532580007B8BA /* Debug */,
+				36FA6C6C1EC532580007B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		368537E41EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music Player" */ = {
+		36FA6C6D1EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				368537E51EB85DFD005CCCF0 /* Debug */,
-				368537E61EB85DFD005CCCF0 /* Release */,
+				36FA6C6E1EC532580007B8BA /* Debug */,
+				36FA6C6F1EC532580007B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		368537E71EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music PlayerTests" */ = {
+		36FA6C701EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music PlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				368537E81EB85DFD005CCCF0 /* Debug */,
-				368537E91EB85DFD005CCCF0 /* Release */,
+				36FA6C711EC532580007B8BA /* Debug */,
+				36FA6C721EC532580007B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		368537EA1EB85DFD005CCCF0 /* Build configuration list for PBXNativeTarget "Beats Music PlayerUITests" */ = {
+		36FA6C731EC532580007B8BA /* Build configuration list for PBXNativeTarget "Beats Music PlayerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				368537EB1EB85DFD005CCCF0 /* Debug */,
-				368537EC1EB85DFD005CCCF0 /* Release */,
+				36FA6C741EC532580007B8BA /* Debug */,
+				36FA6C751EC532580007B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 368537B41EB85DFD005CCCF0 /* Project object */;
+	rootObject = 36FA6C3D1EC532570007B8BA /* Project object */;
 }
