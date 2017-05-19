@@ -2,7 +2,7 @@
 //  ChooseGameViewController.swift
 //  Beats Music Player
 //
-//  Created by Qani Qaniu on 17/5/17.
+//  Created by Qani Qaniu on 18/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 
@@ -14,7 +14,6 @@ class ChooseGameViewController: UIViewController {
         
         gameMode = 2
     }
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()

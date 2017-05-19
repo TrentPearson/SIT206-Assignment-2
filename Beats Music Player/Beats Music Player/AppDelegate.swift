@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Beats Music Player
 //
-//  Created by Qani Qaniu on 12/5/17.
+//  Created by Qani Qaniu on 18/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 
@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        UIApplication.shared.statusBarStyle = .lightContent
         // Override point for customization after application launch.
         return true
     }
