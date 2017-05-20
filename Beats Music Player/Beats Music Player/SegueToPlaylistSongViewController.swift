@@ -1,34 +1,25 @@
 //
-//  PlaylistsViewController.swift
+//  SegueToPlaylistSongViewController.swift
 //  Beats Music Player
 //
-//  Created by Qani Qaniu on 18/5/17.
+//  Created by Qani Qaniu on 20/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 
 import UIKit
-import AVFoundation
 
-class PlaylistsViewController: UIViewController {
+class SegueToPlaylistSongViewController: UIViewController {
 
-    @IBAction func songPickerOne(_ sender: UIButton) {
-        
-        songname = "You"
-    }
-    @IBAction func songPickerTwo(_ sender: UIButton) {
-        
-        songname = "I"
-    }
-    @IBAction func songPickerThree(_ sender: UIButton) {
-        
-        songname = "Co"
-    }
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var viewTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(UIMenuController.update), userInfo: nil, repeats: false)
+        
         // Do any additional setup after loading the view.
+    }
+    
+    func update() {
+        self.performSegue(withIdentifier: "goToPlaylistSong", sender: self)
     }
     
     override func didReceiveMemoryWarning() {
@@ -48,4 +39,3 @@ class PlaylistsViewController: UIViewController {
      */
     
 }
-

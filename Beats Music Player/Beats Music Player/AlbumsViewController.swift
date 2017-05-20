@@ -9,30 +9,32 @@
 import UIKit
 
 class AlbumsViewController: UIViewController {
+    
+    @IBAction func songPickerOne(_ sender: UIButton) {
+        
+        songname = "Shape"
+    }
+    @IBAction func songPickerTwo(_ sender: UIButton) {
+        
+        songname = "Congratulations"
+    }
+    @IBAction func songPickerThree(_ sender: UIButton) {
+        
+        songname = "Thats"
+    }
+    @IBAction func songPickerFour(_ sender: UIButton) {
+        
+        songname = "Feel"
+    }
+    @IBAction func songPickerFive(_ sender: UIButton) {
+        
+        songname = "Lose"
+    }
+    @IBAction func songPickerSix(_ sender: UIButton) {
+        
+        songname = "Say"
+    }
 
-    @IBAction func songChooser1(_ sender: UIButton) {
-        //songname = "Shape of You.mp3"
-    }
-    
-    @IBAction func songChooser2(_ sender: UIButton) {
-        //songname = "Congratulations.mp3"
-    }
-    
-    @IBAction func songChooser3(_ sender: UIButton) {
-        //songname = "Thats What I Like.mp3"
-    }
-    
-    @IBAction func songChooser4(_ sender: UIButton) {
-        //songname = "I Feel It Coming.mp3"
-    }
-    
-    @IBAction func songChooser5(_ sender: UIButton) {
-        //songname = "Lose Yourself.mp3"
-    }
-    
-    @IBAction func songChooser6(_ sender: UIButton) {
-        //songname = "Say You Won't Let Go.mp3"
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

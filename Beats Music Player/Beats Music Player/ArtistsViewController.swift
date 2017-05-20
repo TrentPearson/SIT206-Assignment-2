@@ -11,6 +11,31 @@ import AVFoundation
 
 class ArtistsViewController: UIViewController {
 
+    @IBAction func songPickerOne(_ sender: UIButton) {
+        
+        songname = "Shape"
+    }
+    @IBAction func songPickerTwo(_ sender: UIButton) {
+        
+        songname = "Congratulations"
+    }
+    @IBAction func songPickerThree(_ sender: UIButton) {
+        
+        songname = "Thats"
+    }
+    @IBAction func songPickerFour(_ sender: UIButton) {
+        
+        songname = "Feel"
+    }
+    @IBAction func songPickerFive(_ sender: UIButton) {
+        
+        songname = "Lose"
+    }
+    @IBAction func songPickerSix(_ sender: UIButton) {
+        
+        songname = "Say"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -13,7 +13,7 @@ var audioPlayer = AVAudioPlayer()
 var songs:[String] = []
 var thisSong = 0
 var audioStuffed = false
-var counter = 0
+var songcounter = 0
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -41,6 +41,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             audioPlayer.play()
             thisSong = indexPath.row
+            test = 0
             audioStuffed = true
         }
         catch
@@ -52,10 +53,10 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        if counter == 0
+        if songcounter == 0
         {
             gettingSongNames()
-            counter = 1
+            songcounter = 1
         }
         else
         {

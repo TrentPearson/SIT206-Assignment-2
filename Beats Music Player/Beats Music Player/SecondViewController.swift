@@ -44,32 +44,113 @@ class SecondViewController: UIViewController {
     
     @IBAction func prev(_ sender: Any)
     {
-        if thisSong != 0 && audioStuffed == true
-        {
-            playThis(thisOne: songs[thisSong-1])
-            thisSong -= 1
-            label.text = songs[thisSong]
-            myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
-        }
-        else
-        {
+        if test == 1{
+            if thisSong != 0 && audioStuffed == true
+            {
+                playThis(thisOne: albumsongs[thisSong-1])
+                thisSong -= 1
+                label.text = albumsongs[thisSong]
+                myImageView.image = UIImage(named: "\(albumsongs[thisSong]).jpg")
+            }
+            else
+            {
             
+            }
         }
+        else if test == 2{
+            if thisSong != 0 && audioStuffed == true
+            {
+                playThis(thisOne: artistsongs[thisSong-1])
+                thisSong -= 1
+                label.text = artistsongs[thisSong]
+                myImageView.image = UIImage(named: "\(artistsongs[thisSong]).jpg")
+            }
+            else{
+                
+            }
+        }
+        else if test == 3{
+            if thisSong != 0 && audioStuffed == true
+            {
+                playThis(thisOne: playlistsongs[thisSong-1])
+                thisSong -= 1
+                label.text = playlistsongs[thisSong]
+                myImageView.image = UIImage(named: "\(playlistsongs[thisSong]).jpg")
+            }
+            else{
+                
+            }
+        }
+        else{
+            if thisSong != 0 && audioStuffed == true
+            {
+                playThis(thisOne: songs[thisSong-1])
+                thisSong -= 1
+                label.text = songs[thisSong]
+                myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
+            }
+            else{
+                
+            }
+        }
+
     }
     
     @IBAction func next(_ sender: Any)
     {
-        if thisSong < songs.count-1 && audioStuffed == true
-        {
-            playThis(thisOne: songs[thisSong+1])
-            thisSong += 1
-            label.text = songs[thisSong]
-            myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
-        }
-        else
-        {
+        if test == 1{
+            if thisSong < albumsongs.count-1 && audioStuffed == true
+            {
+                playThis(thisOne: albumsongs[thisSong+1])
+                thisSong += 1
+                label.text = albumsongs[thisSong]
+                myImageView.image = UIImage(named: "\(albumsongs[thisSong]).jpg")
+            }
+            else
+            {
             
+            }
         }
+        else if test == 2{
+            if thisSong < artistsongs.count-1 && audioStuffed == true
+            {
+                playThis(thisOne: artistsongs[thisSong+1])
+                thisSong += 1
+                label.text = artistsongs[thisSong]
+                myImageView.image = UIImage(named: "\(artistsongs[thisSong]).jpg")
+            }
+            else
+            {
+                
+            }
+        }
+        else if test == 3{
+            if thisSong < playlistsongs.count-1 && audioStuffed == true
+            {
+                playThis(thisOne: playlistsongs[thisSong+1])
+                thisSong += 1
+                label.text = playlistsongs[thisSong]
+                myImageView.image = UIImage(named: "\(playlistsongs[thisSong]).jpg")
+            }
+            else
+            {
+                
+            }
+        }
+        else{
+            if thisSong < songs.count-1 && audioStuffed == true
+            {
+                playThis(thisOne: songs[thisSong+1])
+                thisSong += 1
+                label.text = songs[thisSong]
+                myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
+            }
+            else
+            {
+                
+            }
+        }
+
     }
     
     func playThis(thisOne:String)
@@ -89,12 +170,31 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        label.text = songs[thisSong]
+        if test == 1
+        {
+            label.text = albumsongs[thisSong]
+            myImageView.image = UIImage(named: "\(albumsongs[thisSong]).jpg")
+        }
+        else if test == 2
+        {
+            label.text = artistsongs[thisSong]
+            myImageView.image = UIImage(named: "\(artistsongs[thisSong]).jpg")
+        }
+        else if test == 3
+        {
+            label.text = playlistsongs[thisSong]
+            myImageView.image = UIImage(named: "\(playlistsongs[thisSong]).jpg")
+        }
+        else
+        {
+            label.text = songs[thisSong]
+            myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
+        }
+
         if audioStuffed == true && audioPlayer.isPlaying
         {
             playbutton.setTitle("PAUSE", for: .normal)
         }
-        myImageView.image = UIImage(named: "\(songs[thisSong]).jpg")
         var timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(SecondViewController.updateMusicSlider), userInfo: nil, repeats: true)
         musicSlider.value = 0.0
         musicSlider.maximumValue = Float(audioPlayer.duration)

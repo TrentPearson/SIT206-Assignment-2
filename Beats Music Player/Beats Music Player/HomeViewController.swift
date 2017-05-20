@@ -32,9 +32,25 @@ class HomeViewController: UIViewController {
         
         if audioStuffed == true && audioPlayer.isPlaying
         {
-            songName.text = songs[thisSong]
-            playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
-            
+            if test == 1{
+                songName.text = albumsongs[thisSong]
+                playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            }
+            else if test == 2
+            {
+                songName.text = artistsongs[thisSong]
+                playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            }
+            else if test == 3
+            {
+                songName.text = playlistsongs[thisSong]
+                playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            }
+            else
+            {
+                songName.text = songs[thisSong]
+                playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            }
         }
         
         // Do any additional setup after loading the view.

@@ -1,32 +1,30 @@
 //
-//  AlbumTracksViewController.swift
+//  ArtistsTrackViewController.swift
 //  Beats Music Player
 //
-//  Created by Qani Qaniu on 18/5/17.
+//  Created by Qani Qaniu on 19/5/17.
 //  Copyright © 2017 Qani Qaniu. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-var albumsongs:[String] = []
-var test = 0
-var albumcounter = 0
-var songname = ""
+var artistsongs:[String] = []
+var artistcounter = 0
 
-class AlbumTracksViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    @IBOutlet weak var albumSongTableView: UITableView!
+class ArtistsTrackViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    @IBOutlet weak var artistSongTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return albumsongs.count
+        return artistsongs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = albumsongs[indexPath.row]
+        cell.textLabel?.text = artistsongs[indexPath.row]
         cell.backgroundColor = UIColor.clear
         cell.textLabel?.textColor = UIColor.init(red: 236, green: 236, blue: 236, alpha: 100)
         return cell
@@ -36,11 +34,11 @@ class AlbumTracksViewController: UIViewController, UITableViewDelegate, UITableV
     {
         do
         {
-            let audioPath = Bundle.main.path(forResource: albumsongs[indexPath.row], ofType: ".mp3")
+            let audioPath = Bundle.main.path(forResource: artistsongs[indexPath.row], ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             audioPlayer.play()
             thisSong = indexPath.row
-            test = 1
+            test = 2
             audioStuffed = true
         }
         catch
@@ -53,12 +51,12 @@ class AlbumTracksViewController: UIViewController, UITableViewDelegate, UITableV
     {
         super.viewDidLoad()
         
-        albumsongs.removeAll()
-        albumSongTableView.reloadData()
+        artistsongs.removeAll()
+        artistSongTableView.reloadData()
         
-        if albumcounter == 0
+        if artistcounter == 0
         {
-            gettingAlbumSongNames()
+            gettingArtistSongNames()
         }
         else
         {
@@ -73,31 +71,31 @@ class AlbumTracksViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     //FUNCTION THAT GETS THE NAME OF THE SONGS
-    func gettingAlbumSongNames()
+    func gettingArtistSongNames()
     {
         let folderURL = URL(fileURLWithPath:Bundle.main.resourcePath!)
         
         do
         {
-            let AlbumSongPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
+            let ArtistSongPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
             
             //loop through the found urls
-            for song in AlbumSongPath
+            for song in ArtistSongPath
             {
-                var myAlbumSong = song.absoluteString
+                var myArtistSong = song.absoluteString
                 
-                if myAlbumSong.contains(".mp3") && myAlbumSong.contains("\(songname)")
+                if myArtistSong.contains(".mp3") && myArtistSong.contains("\(songname)")
                 {
-                    let findString = myAlbumSong.components(separatedBy: "/")
-                    myAlbumSong = findString[findString.count-1]
-                    myAlbumSong = myAlbumSong.replacingOccurrences(of: "%20", with: " ")
-                    myAlbumSong = myAlbumSong.replacingOccurrences(of: ".mp3", with: "")
-                    albumsongs.append(myAlbumSong)
+                    let findString = myArtistSong.components(separatedBy: "/")
+                    myArtistSong = findString[findString.count-1]
+                    myArtistSong = myArtistSong.replacingOccurrences(of: "%20", with: " ")
+                    myArtistSong = myArtistSong.replacingOccurrences(of: ".mp3", with: "")
+                    artistsongs.append(myArtistSong)
                 }
                 
             }
             
-            albumSongTableView.reloadData()
+            artistSongTableView.reloadData()
         }
         catch
         {
@@ -105,4 +103,3 @@ class AlbumTracksViewController: UIViewController, UITableViewDelegate, UITableV
         }
     }
 }
-

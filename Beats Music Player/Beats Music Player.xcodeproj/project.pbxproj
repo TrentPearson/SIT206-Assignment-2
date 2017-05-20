@@ -28,6 +28,7 @@
 		363BA9F61ECEA48500142B83 /* Say You Won't Let Go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363BA9F01ECEA48500142B83 /* Say You Won't Let Go.jpg */; };
 		363BA9F71ECEA48500142B83 /* Shape of You.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363BA9F11ECEA48500142B83 /* Shape of You.jpg */; };
 		363BA9F81ECEA48500142B83 /* Thats What I Like.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363BA9F21ECEA48500142B83 /* Thats What I Like.jpg */; };
+		363BA9FA1ECEC75D00142B83 /* ArtistsTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BA9F91ECEC75D00142B83 /* ArtistsTrackViewController.swift */; };
 		3679EB6A1ECD20D9000DCBA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679EB671ECD20D9000DCBA5 /* HomeViewController.swift */; };
 		3679EB6B1ECD20D9000DCBA5 /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679EB681ECD20D9000DCBA5 /* PopTheBalloonViewController.swift */; };
 		3679EB6C1ECD20D9000DCBA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679EB691ECD20D9000DCBA5 /* SecondViewController.swift */; };
@@ -35,6 +36,10 @@
 		36DE861F1ECDB65A009F5E70 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE861E1ECDB65A009F5E70 /* AlbumsViewController.swift */; };
 		36DE86211ECDB665009F5E70 /* ArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE86201ECDB665009F5E70 /* ArtistsViewController.swift */; };
 		36DE86231ECDBD8E009F5E70 /* AlbumTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE86221ECDBD8E009F5E70 /* AlbumTracksViewController.swift */; };
+		36E10FC51ED0181A000D3E6D /* SegueToArtistSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E10FC41ED0181A000D3E6D /* SegueToArtistSongViewController.swift */; };
+		36E10FC71ED01849000D3E6D /* SegueToAlbumSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E10FC61ED01849000D3E6D /* SegueToAlbumSongViewController.swift */; };
+		36E10FC91ED01AD0000D3E6D /* SegueToPlaylistSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E10FC81ED01AD0000D3E6D /* SegueToPlaylistSongViewController.swift */; };
+		36E10FCB1ED01B4A000D3E6D /* PlaylistTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E10FCA1ED01B4A000D3E6D /* PlaylistTracksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +87,7 @@
 		363BA9F01ECEA48500142B83 /* Say You Won't Let Go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Say You Won't Let Go.jpg"; path = "Cover Art/Say You Won't Let Go.jpg"; sourceTree = "<group>"; };
 		363BA9F11ECEA48500142B83 /* Shape of You.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Shape of You.jpg"; path = "Cover Art/Shape of You.jpg"; sourceTree = "<group>"; };
 		363BA9F21ECEA48500142B83 /* Thats What I Like.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thats What I Like.jpg"; path = "Cover Art/Thats What I Like.jpg"; sourceTree = "<group>"; };
+		363BA9F91ECEC75D00142B83 /* ArtistsTrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsTrackViewController.swift; sourceTree = "<group>"; };
 		3679EB671ECD20D9000DCBA5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3679EB681ECD20D9000DCBA5 /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
 		3679EB691ECD20D9000DCBA5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +95,10 @@
 		36DE861E1ECDB65A009F5E70 /* AlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		36DE86201ECDB665009F5E70 /* ArtistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsViewController.swift; sourceTree = "<group>"; };
 		36DE86221ECDBD8E009F5E70 /* AlbumTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTracksViewController.swift; sourceTree = "<group>"; };
+		36E10FC41ED0181A000D3E6D /* SegueToArtistSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueToArtistSongViewController.swift; sourceTree = "<group>"; };
+		36E10FC61ED01849000D3E6D /* SegueToAlbumSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueToAlbumSongViewController.swift; sourceTree = "<group>"; };
+		36E10FC81ED01AD0000D3E6D /* SegueToPlaylistSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueToPlaylistSongViewController.swift; sourceTree = "<group>"; };
+		36E10FCA1ED01B4A000D3E6D /* PlaylistTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTracksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,21 +150,26 @@
 			isa = PBXGroup;
 			children = (
 				3614FF361ECD10C20082E929 /* AppDelegate.swift */,
+				36E10FC41ED0181A000D3E6D /* SegueToArtistSongViewController.swift */,
+				36E10FC61ED01849000D3E6D /* SegueToAlbumSongViewController.swift */,
+				36E10FC81ED01AD0000D3E6D /* SegueToPlaylistSongViewController.swift */,
 				3614FF641ECD111B0082E929 /* FirstViewController.swift */,
 				36DE861C1ECDB64C009F5E70 /* PlaylistsViewController.swift */,
+				36E10FCA1ED01B4A000D3E6D /* PlaylistTracksViewController.swift */,
 				36DE861E1ECDB65A009F5E70 /* AlbumsViewController.swift */,
+				36DE86221ECDBD8E009F5E70 /* AlbumTracksViewController.swift */,
 				36DE86201ECDB665009F5E70 /* ArtistsViewController.swift */,
+				363BA9F91ECEC75D00142B83 /* ArtistsTrackViewController.swift */,
 				3679EB671ECD20D9000DCBA5 /* HomeViewController.swift */,
 				3679EB681ECD20D9000DCBA5 /* PopTheBalloonViewController.swift */,
 				3679EB691ECD20D9000DCBA5 /* SecondViewController.swift */,
 				3614FF7B1ECD15EA0082E929 /* ChooseGameViewController.swift */,
 				3614FF7F1ECD16100082E929 /* TicTacToeViewController.swift */,
-				36DE86221ECDBD8E009F5E70 /* AlbumTracksViewController.swift */,
 				3614FF3A1ECD10C20082E929 /* Main.storyboard */,
 				3614FF3D1ECD10C20082E929 /* Assets.xcassets */,
 				3614FF3F1ECD10C20082E929 /* LaunchScreen.storyboard */,
-				363BA9D31ECEA3E300142B83 /* Songs */,
 				3614FF421ECD10C20082E929 /* Info.plist */,
+				363BA9D31ECEA3E300142B83 /* Songs */,
 				363BA9EC1ECEA46E00142B83 /* Cover Art */,
 			);
 			path = "Beats Music Player";
@@ -351,16 +366,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3614FF7C1ECD15EA0082E929 /* ChooseGameViewController.swift in Sources */,
+				36E10FC51ED0181A000D3E6D /* SegueToArtistSongViewController.swift in Sources */,
 				3679EB6A1ECD20D9000DCBA5 /* HomeViewController.swift in Sources */,
 				36DE86231ECDBD8E009F5E70 /* AlbumTracksViewController.swift in Sources */,
 				36DE861F1ECDB65A009F5E70 /* AlbumsViewController.swift in Sources */,
 				36DE86211ECDB665009F5E70 /* ArtistsViewController.swift in Sources */,
 				3614FF651ECD111B0082E929 /* FirstViewController.swift in Sources */,
+				363BA9FA1ECEC75D00142B83 /* ArtistsTrackViewController.swift in Sources */,
 				3614FF801ECD16100082E929 /* TicTacToeViewController.swift in Sources */,
 				36DE861D1ECDB64C009F5E70 /* PlaylistsViewController.swift in Sources */,
+				36E10FC71ED01849000D3E6D /* SegueToAlbumSongViewController.swift in Sources */,
 				3614FF371ECD10C20082E929 /* AppDelegate.swift in Sources */,
 				3679EB6C1ECD20D9000DCBA5 /* SecondViewController.swift in Sources */,
 				3679EB6B1ECD20D9000DCBA5 /* PopTheBalloonViewController.swift in Sources */,
+				36E10FCB1ED01B4A000D3E6D /* PlaylistTracksViewController.swift in Sources */,
+				36E10FC91ED01AD0000D3E6D /* SegueToPlaylistSongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
