@@ -288,6 +288,11 @@
 					3614FF321ECD10C20082E929 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					3614FF461ECD10C20082E929 = {
 						CreatedOnToolsVersion = 8.2.1;

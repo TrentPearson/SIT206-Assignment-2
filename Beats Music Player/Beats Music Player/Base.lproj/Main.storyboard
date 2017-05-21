@@ -84,7 +84,7 @@
                                 <rect key="frame" x="0.0" y="610" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObD-JH-YR9">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObD-JH-YR9">
                                         <rect key="frame" x="16" y="17" width="21" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Up"/>
@@ -99,7 +99,7 @@
                                         <color key="textColor" red="0.92541915180000001" green="0.92553013559999997" blue="0.92538142199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RH-Eu-ttE">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RH-Eu-ttE">
                                         <rect key="frame" x="291" y="17" width="17" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="play"/>
@@ -114,6 +114,7 @@
                         <color key="backgroundColor" red="0.047058823530000002" green="0.047058823530000002" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="goToNowPlaying" destination="ObD-JH-YR9" id="mi5-6B-SO5"/>
                         <outlet property="playResumeButton" destination="4RH-Eu-ttE" id="oW6-Pg-7vP"/>
                         <outlet property="songName" destination="smC-FD-QvB" id="tHN-g4-6aV"/>
                     </connections>
@@ -1061,9 +1062,9 @@
         <image name="refresh" width="18" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="i8Z-Ad-HrX"/>
-        <segue reference="n7a-GV-2Z1"/>
+        <segue reference="Vlb-Fu-zVj"/>
         <segue reference="wSw-ro-gAD"/>
         <segue reference="v4M-Cx-sMD"/>
+        <segue reference="n7a-GV-2Z1"/>
     </inferredMetricsTieBreakers>
 </document>

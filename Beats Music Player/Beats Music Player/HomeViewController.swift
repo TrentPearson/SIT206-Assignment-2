@@ -10,6 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var goToNowPlaying: UIButton!
     @IBOutlet weak var playResumeButton: UIButton!
     
     @IBAction func playpause(_ sender: UIButton)
@@ -29,26 +30,34 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if audioStuffed == true && audioPlayer.isPlaying
         {
             if test == 1{
                 songName.text = albumsongs[thisSong]
+                goToNowPlaying.isHidden = false
+                playResumeButton.isHidden = false
                 playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
             }
             else if test == 2
             {
                 songName.text = artistsongs[thisSong]
+                goToNowPlaying.isHidden = false
+                playResumeButton.isHidden = false
                 playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
             }
             else if test == 3
             {
                 songName.text = playlistsongs[thisSong]
+                goToNowPlaying.isHidden = false
+                playResumeButton.isHidden = false
                 playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
             }
             else
             {
                 songName.text = songs[thisSong]
+                goToNowPlaying.isHidden = false
+                playResumeButton.isHidden = false
                 playResumeButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
             }
         }
